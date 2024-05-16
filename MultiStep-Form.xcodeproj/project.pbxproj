@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58218AB42BEAEEFF000D3CF0 /* ModalPersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58218AB32BEAEEFF000D3CF0 /* ModalPersonalInfoVC.swift */; };
+		58218AB62BEBD529000D3CF0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58218AB52BEBD529000D3CF0 /* Models.swift */; };
 		586679482BE970B00015F78E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586679472BE970B00015F78E /* AppDelegate.swift */; };
 		5866794A2BE970B00015F78E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586679492BE970B00015F78E /* SceneDelegate.swift */; };
-		5866794C2BE970B00015F78E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5866794B2BE970B00015F78E /* ViewController.swift */; };
-		5866794F2BE970B00015F78E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5866794D2BE970B00015F78E /* Main.storyboard */; };
 		586679512BE970B20015F78E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586679502BE970B20015F78E /* Assets.xcassets */; };
 		586679542BE970B20015F78E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586679522BE970B20015F78E /* LaunchScreen.storyboard */; };
+		5866795E2BE970D00015F78E /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5866795B2BE970D00015F78E /* Ubuntu-Regular.ttf */; };
+		5866795F2BE970D00015F78E /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5866795C2BE970D00015F78E /* Ubuntu-Medium.ttf */; };
+		586679602BE970D00015F78E /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5866795D2BE970D00015F78E /* Ubuntu-Bold.ttf */; };
+		586679632BEA88B10015F78E /* PlansVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586679622BEA88B10015F78E /* PlansVC.swift */; };
+		586679652BEA88E50015F78E /* AddOnsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586679642BEA88E50015F78E /* AddOnsVC.swift */; };
+		586679672BEA89090015F78E /* SummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586679662BEA89090015F78E /* SummaryVC.swift */; };
+		586679692BEA89380015F78E /* PersonalInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586679682BEA89380015F78E /* PersonalInfoVC.swift */; };
+		5866796C2BEA8AD00015F78E /* StepsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5866796B2BEA8AD00015F78E /* StepsStackView.swift */; };
+		5866796F2BEA9C110015F78E /* SuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5866796E2BEA9C110015F78E /* SuccessVC.swift */; };
+		58E391B92BF3308D00B0BB5D /* ModalPlansVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E391B82BF3308D00B0BB5D /* ModalPlansVC.swift */; };
+		58E391BC2BF3312800B0BB5D /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E391BB2BF3312800B0BB5D /* TitleLabel.swift */; };
+		58E391BE2BF3313800B0BB5D /* DescriptionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E391BD2BF3313800B0BB5D /* DescriptionLabel.swift */; };
+		58E391C22BF4675200B0BB5D /* PlanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E391C12BF4675200B0BB5D /* PlanButton.swift */; };
+		58E391C42BF50EEB00B0BB5D /* ModalAddOnsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E391C32BF50EEB00B0BB5D /* ModalAddOnsVC.swift */; };
+		58E391C62BF5118000B0BB5D /* AddOnButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E391C52BF5118000B0BB5D /* AddOnButton.swift */; };
+		58E391CA2BF5451800B0BB5D /* ModalSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E391C92BF5451800B0BB5D /* ModalSummaryVC.swift */; };
+		58E391CC2BF5486600B0BB5D /* PlanDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E391CB2BF5486600B0BB5D /* PlanDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58218AB32BEAEEFF000D3CF0 /* ModalPersonalInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPersonalInfoVC.swift; sourceTree = "<group>"; };
+		58218AB52BEBD529000D3CF0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		586679442BE970B00015F78E /* MultiStep-Form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiStep-Form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		586679472BE970B00015F78E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		586679492BE970B00015F78E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5866794B2BE970B00015F78E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5866794E2BE970B00015F78E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		586679502BE970B20015F78E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586679532BE970B20015F78E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		586679552BE970B20015F78E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5866795B2BE970D00015F78E /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		5866795C2BE970D00015F78E /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		5866795D2BE970D00015F78E /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		586679622BEA88B10015F78E /* PlansVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansVC.swift; sourceTree = "<group>"; };
+		586679642BEA88E50015F78E /* AddOnsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOnsVC.swift; sourceTree = "<group>"; };
+		586679662BEA89090015F78E /* SummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryVC.swift; sourceTree = "<group>"; };
+		586679682BEA89380015F78E /* PersonalInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoVC.swift; sourceTree = "<group>"; };
+		5866796B2BEA8AD00015F78E /* StepsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsStackView.swift; sourceTree = "<group>"; };
+		5866796E2BEA9C110015F78E /* SuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessVC.swift; sourceTree = "<group>"; };
+		58E391B82BF3308D00B0BB5D /* ModalPlansVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPlansVC.swift; sourceTree = "<group>"; };
+		58E391BB2BF3312800B0BB5D /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		58E391BD2BF3313800B0BB5D /* DescriptionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionLabel.swift; sourceTree = "<group>"; };
+		58E391C12BF4675200B0BB5D /* PlanButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanButton.swift; sourceTree = "<group>"; };
+		58E391C32BF50EEB00B0BB5D /* ModalAddOnsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAddOnsVC.swift; sourceTree = "<group>"; };
+		58E391C52BF5118000B0BB5D /* AddOnButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOnButton.swift; sourceTree = "<group>"; };
+		58E391C92BF5451800B0BB5D /* ModalSummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSummaryVC.swift; sourceTree = "<group>"; };
+		58E391CB2BF5486600B0BB5D /* PlanDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58218AB72BEBD53A000D3CF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58218AB52BEBD529000D3CF0 /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5866793B2BE970B00015F78E = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +100,62 @@
 			children = (
 				586679472BE970B00015F78E /* AppDelegate.swift */,
 				586679492BE970B00015F78E /* SceneDelegate.swift */,
-				5866794B2BE970B00015F78E /* ViewController.swift */,
-				5866794D2BE970B00015F78E /* Main.storyboard */,
+				5866796D2BEA8AD50015F78E /* Custom Views */,
+				5866796A2BEA896E0015F78E /* Controllers */,
 				586679502BE970B20015F78E /* Assets.xcassets */,
+				58E391BA2BF3309500B0BB5D /* ModalsControllers */,
+				58218AB72BEBD53A000D3CF0 /* Model */,
+				586679612BE970D60015F78E /* Fonts */,
 				586679522BE970B20015F78E /* LaunchScreen.storyboard */,
 				586679552BE970B20015F78E /* Info.plist */,
 			);
 			path = "MultiStep-Form";
+			sourceTree = "<group>";
+		};
+		586679612BE970D60015F78E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5866795D2BE970D00015F78E /* Ubuntu-Bold.ttf */,
+				5866795C2BE970D00015F78E /* Ubuntu-Medium.ttf */,
+				5866795B2BE970D00015F78E /* Ubuntu-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5866796A2BEA896E0015F78E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				586679662BEA89090015F78E /* SummaryVC.swift */,
+				586679622BEA88B10015F78E /* PlansVC.swift */,
+				586679642BEA88E50015F78E /* AddOnsVC.swift */,
+				586679682BEA89380015F78E /* PersonalInfoVC.swift */,
+				5866796E2BEA9C110015F78E /* SuccessVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5866796D2BEA8AD50015F78E /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				5866796B2BEA8AD00015F78E /* StepsStackView.swift */,
+				58E391BB2BF3312800B0BB5D /* TitleLabel.swift */,
+				58E391BD2BF3313800B0BB5D /* DescriptionLabel.swift */,
+				58E391C12BF4675200B0BB5D /* PlanButton.swift */,
+				58E391C52BF5118000B0BB5D /* AddOnButton.swift */,
+				58E391CB2BF5486600B0BB5D /* PlanDetailsView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		58E391BA2BF3309500B0BB5D /* ModalsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				58218AB32BEAEEFF000D3CF0 /* ModalPersonalInfoVC.swift */,
+				58E391B82BF3308D00B0BB5D /* ModalPlansVC.swift */,
+				58E391C32BF50EEB00B0BB5D /* ModalAddOnsVC.swift */,
+				58E391C92BF5451800B0BB5D /* ModalSummaryVC.swift */,
+			);
+			path = ModalsControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +216,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5866795E2BE970D00015F78E /* Ubuntu-Regular.ttf in Resources */,
+				5866795F2BE970D00015F78E /* Ubuntu-Medium.ttf in Resources */,
+				586679602BE970D00015F78E /* Ubuntu-Bold.ttf in Resources */,
 				586679542BE970B20015F78E /* LaunchScreen.storyboard in Resources */,
 				586679512BE970B20015F78E /* Assets.xcassets in Resources */,
-				5866794F2BE970B00015F78E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +231,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5866794C2BE970B00015F78E /* ViewController.swift in Sources */,
+				58E391CC2BF5486600B0BB5D /* PlanDetailsView.swift in Sources */,
+				586679652BEA88E50015F78E /* AddOnsVC.swift in Sources */,
+				586679672BEA89090015F78E /* SummaryVC.swift in Sources */,
 				586679482BE970B00015F78E /* AppDelegate.swift in Sources */,
+				586679692BEA89380015F78E /* PersonalInfoVC.swift in Sources */,
+				58218AB42BEAEEFF000D3CF0 /* ModalPersonalInfoVC.swift in Sources */,
+				58E391CA2BF5451800B0BB5D /* ModalSummaryVC.swift in Sources */,
+				5866796F2BEA9C110015F78E /* SuccessVC.swift in Sources */,
+				5866796C2BEA8AD00015F78E /* StepsStackView.swift in Sources */,
 				5866794A2BE970B00015F78E /* SceneDelegate.swift in Sources */,
+				58E391C22BF4675200B0BB5D /* PlanButton.swift in Sources */,
+				58E391B92BF3308D00B0BB5D /* ModalPlansVC.swift in Sources */,
+				58E391BC2BF3312800B0BB5D /* TitleLabel.swift in Sources */,
+				586679632BEA88B10015F78E /* PlansVC.swift in Sources */,
+				58E391BE2BF3313800B0BB5D /* DescriptionLabel.swift in Sources */,
+				58218AB62BEBD529000D3CF0 /* Models.swift in Sources */,
+				58E391C62BF5118000B0BB5D /* AddOnButton.swift in Sources */,
+				58E391C42BF50EEB00B0BB5D /* ModalAddOnsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5866794D2BE970B00015F78E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5866794E2BE970B00015F78E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		586679522BE970B20015F78E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +392,6 @@
 				INFOPLIST_FILE = "MultiStep-Form/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +419,6 @@
 				INFOPLIST_FILE = "MultiStep-Form/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
